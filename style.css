@@ -1,0 +1,132 @@
+body{
+ font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.calculator_body{
+    width: 279px;
+    margin: auto;
+    border: 2px solid #374757;
+    border-radius: 15px 15px 5px 5px;
+    margin-top: 50px;
+    padding: 20px 5px 10px;
+    background: #374757;
+}
+.screen input{
+    width: 100%;
+    height:auto;
+    font-size:30px;
+    padding-top: 25px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #374757;
+}
+.text p{
+    color: white;
+    margin: 8px 0px 20px 176px;
+    font-size: 15px;
+}
+button{
+    text-transform: uppercase;
+    color: white;
+    
+}
+.btn_a button:first-child{
+    margin-right: 109px
+}
+/* re-use able start*/
+.btn_type_1 button{
+    padding: 7px 10px;
+    background:#A8A5AE;
+    border: none;
+    border-radius: 5px;
+    margin: 2px;
+}
+.btn_type_2 button{
+    padding: 5px 10px;
+    background:#A8A5AE;
+    border: none;
+    border-radius: 5px;
+    margin: 2px;
+}
+.single .size{
+    padding: 5px 19px;
+}
+.dowble .size_b{
+    padding: 5px 15px;
+}
+
+/* re-useable spicial start*/
+.btn_a button{
+    padding: 7px 7px;
+}
+.single .extra_size{
+    padding: 5px 21px;
+}
+.single .low_size{
+    padding: 5px 9px;
+}
+.single .m{
+    padding: 5px 13px;
+}
+.btn_b button{
+    padding: 7px 8px;
+}
+.btn_a .on{
+    padding: 7px 15px;
+    background: red;
+    color: white;
+}
+.single .size_parsent{
+    padding: 5px 16px;
+    margin-left: 1px
+}
+.single .size_mer{
+    padding: 5px 10px;
+    margin-left: 3px
+}
+.color button{
+    background: #0B9699;
+}
+.color_btn .green{
+    background: #0B9699;
+}
+/* re-use able end*/
+button:hover{
+    background: white;
+    color: black;
+    cursor: pointer;
+}
+.hover:hover{
+    background: white;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
